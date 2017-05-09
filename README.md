@@ -7,6 +7,10 @@ JDAC is a Java application, that connects to the Arduino, plots the data in real
 More informations on the project are available on the [project website](https://lizzit.it/jdac)
 
 ## Java application
+| ![Logo](/screenshots/screen1.png) |
+|---|
+| A screenshot of the JDAC Java application |
+
 JDAC can be launched by executing the jar file available in this repository.  
 
 | ![Logo](/logo.png) |
