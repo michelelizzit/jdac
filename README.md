@@ -32,3 +32,5 @@ The 2.5mm jack on the Casio unit is actually a 5V TTL serial port working at 384
 More information on the protocol used by the unit is available on the official Casio website: http://support.casio.com/storage/en/manual/pdf/EN/004/EA200_TechnicalReference_EN.pdf  
 The Arduino firmware "EA200" implements the protocol as specified in the official technical reference and collects the data from the sensor specified in the Config.h file.  
 The Config.h file is placed in the "casioEA200" folder and contains some preprocessor directives that configure the firmware during compilation.  
+### Custom firmware
+In order to write a JDAC compatible firmware the firmware has to collect the data and send it via the USB serial port at 115200baud, each value has to be separated by a newline character ("\n", ASCII code 10) and has to use a dot (".") as decimal mark, as soon as a value is received the JDAC application adds a point to the chart.
