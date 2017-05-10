@@ -27,7 +27,8 @@ Useful for testing purposes.
 It interfaces with a DS18B20 temperature probe.
 ### Casio EA200
 Connects to a Casio EA200 or Casio CLAB, and collects the data from one of the sensors connected.  
-In order to connect to a Casio CLAB or Casio EA200, the Arduino must be connected to the 3.5mm jack connector on the unit, as specified in the Config.h file.  
-Information on the protocol used by the unit is available on the official Casio website: http://support.casio.com/storage/en/manual/pdf/EN/004/EA200_TechnicalReference_EN.pdf  
+In order to connect to a Casio CLAB or Casio EA200, the Arduino must be connected to the 2.5mm jack connector on the unit, as specified in the Config.h file.  
+The 2.5mm jack on the Casio unit is actually a 5V TTL serial port working at 38400baud, the unit usually connects to a Casio calculator and transfers the data to the calculator, however it can be connected to any other device implementing the right protocol.  
+More information on the protocol used by the unit is available on the official Casio website: http://support.casio.com/storage/en/manual/pdf/EN/004/EA200_TechnicalReference_EN.pdf  
 The Arduino firmware "EA200" implements the protocol as specified in the official technical reference and collects the data from the sensor specified in the Config.h file.  
 The Config.h file is placed in the "casioEA200" folder and contains some preprocessor directives that configure the firmware during compilation.  
