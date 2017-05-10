@@ -15,14 +15,14 @@ The first chart contains all the data that will be saved in the CSV file, the se
 Collected data can be saved using the 'Save as CSV' button in the 'File' menu.  
 An exported CSV file contains two columns with one row for each data value, the first one indicates the value while the second one indicates the time at which the value has been acquired.  
 The time in the CSV file is expressed as milliseconds since Unix epoch (1 Jan 1970).  
-As any other CSV file it can be imported in all the major spreadsheet software.  
+As any other CSV file the exported CSV file can be imported in all the major spreadsheet software.  
   
-A sensor type can be selected using the 'Sensor' menu the application displays the correct unit on the charts based on the selected sensor.  
+A sensor type can be selected using the 'Sensor' menu, the application displays the correct unit on the charts based on the selected sensor.  
 When selecting the 'Generic' sensor, no unit is displayed.  
   
 The serial port used by the software can be selected in the 'Device>Port' menu.  
-On Linux-based OSes Arduino boards usually display as ttyACMx or ttyUSBx.  
-The serial port list is refreshed on startup or when 'Device>Refresh port list' is clicked.  
+On Linux-based OSes Arduino boards usually display as ttyACMx or ttyUSBx, on Windows they display as COMx.  
+The serial port list is refreshed on application startup or when 'Device>Refresh port list' is clicked.  
 
 | ![Logo](/screenshots/screen1.png) |
 |---|
