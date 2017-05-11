@@ -44,7 +44,7 @@ In order to start collecting data the user has to:
 
 | ![Logo](/logo.png) |
 |---|
-| The application logo |
+| The (temporary) application logo |
 
 ## Arduino firmware
 JDAC can connect to any Arduino board that sends the data, separated by the newline character, via serial at 115200bps.  
